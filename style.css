@@ -1,0 +1,44 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container
+{
+    font-size: 20px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    border-top: 5px solid brown;
+    border-bottom: 5px solid brown;
+}
+
+.count
+{
+    display: flex;
+    justify-content: center;
+}
+
+.remaining
+{
+    margin-left: auto;
+}
+
+#text
+{
+    border: 3px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 350px;
+    height: 50px;
+}
+
+#text:hover{
+    background-color: brown;
+    color: aliceblue;
+}
